@@ -1,7 +1,7 @@
 import React from 'react'
 import { Provider } from 'react-redux'
 import configureMockStore from 'redux-mock-store'
-import {HomeScreen} from '../screens/homeScreen'
+import Astroid from '../screens/astroid'
 import { shallow } from 'enzyme'
 
 const mockStore = configureMockStore()
@@ -19,12 +19,12 @@ describe('Users screen', () => {
         const props = createTestProps()
         const wrapper = shallow(
             <Provider store={store}>
-                <HomeScreen {...props} />
+                <Astroid {...props} />
             </Provider>
         )
 
         it('should render a view', () => {
-            expect(wrapper.find('.Description-wrapper')).toHaveLength(0)
+            expect(wrapper.find('.view-wrapper')).toHaveLength(0)
         })
     })
 })

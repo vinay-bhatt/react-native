@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "interview",
-    "slug": "interview",
+    "name": "astroid",
+    "slug": "astroid",
     "platforms": [
       "ios",
       "android",
@@ -22,7 +22,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cc.astroid",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.cc.astroid",
+      "versionCode": 1
     }
   }
 }
