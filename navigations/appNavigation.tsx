@@ -14,14 +14,14 @@ const Navigation = () => {
                 <Stack.Screen name="Home" component={AstroidSearch} options={{
                     title: 'Home',
                     headerStyle: {
-                        backgroundColor: 'grey'
+                        backgroundColor: '#e67e22'
                     },
                     headerTintColor: 'white'
                 }} />
                  <Stack.Screen name="AstroidView" component={AstroidView} options={{
                     title: 'Details',
                     headerStyle: {
-                        backgroundColor: 'grey'
+                        backgroundColor: '#e67e22'
                     },
                     headerTintColor: 'white'
                 }} />

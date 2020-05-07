@@ -31,7 +31,7 @@ const AstroidView = (props: any) => {
                     <Button title='Submit' disabled={!astroidValue} onPress={searchHandler}  />
                 </View>
                 <View style={styles.button}>
-                    <Button title='Random' onPress={randomSearchHandler} />
+                    <Button title='Random Asteroid' onPress={randomSearchHandler} />
                 </View>
             </View>
         </View>
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
         padding: 20
     },
     button :{
-        width: '40%'
+        width: '45%'
     }
 
 })
